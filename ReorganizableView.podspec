@@ -8,8 +8,8 @@ Pod::Spec.new do |spec|
                    DESC
   spec.homepage     = "https://github.com/sonnyfournier/ReorganizableView"
   spec.license      = "MIT"
-  spec.author             = { "Sonny Fournier" => "sonny.fournier@protonmail.com" }
+  spec.author       = { "Sonny Fournier" => "sonny.fournier@protonmail.com" }
   spec.source       = { :git => "https://github.com/sonnyfournier/ReorganizableView.git", :tag => "#{spec.version}" }
-  spec.source_files  = "ReorganizableView/**/*.swift"
+  spec.source_files  = "Sources/ReorganizableView/**/*.swift"
 
 end
