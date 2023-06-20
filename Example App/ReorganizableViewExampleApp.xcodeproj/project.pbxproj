@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8D83D501F2CBC3E92A17A308 /* Pods_ReorganizableViewExampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BC208FD2901DA91C5FACD2C /* Pods_ReorganizableViewExampleApp.framework */; };
 		E05B64C52A41CC7700A3724A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05B64C42A41CC7700A3724A /* AppDelegate.swift */; };
 		E05B64C72A41CC7700A3724A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05B64C62A41CC7700A3724A /* SceneDelegate.swift */; };
 		E05B64C92A41CC7700A3724A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05B64C82A41CC7700A3724A /* ViewController.swift */; };
 		E05B64CE2A41CC7800A3724A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E05B64CD2A41CC7800A3724A /* Assets.xcassets */; };
 		E05B64D12A41CC7800A3724A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E05B64CF2A41CC7800A3724A /* LaunchScreen.storyboard */; };
+		E7C25DE857AE31B8FB251800 /* Pods_ReorganizableViewExampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AED94340CB75D70D24C487C /* Pods_ReorganizableViewExampleApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1FEF3645DA2A8906C610F76C /* Pods-ReorganizableViewExampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReorganizableViewExampleApp.release.xcconfig"; path = "Target Support Files/Pods-ReorganizableViewExampleApp/Pods-ReorganizableViewExampleApp.release.xcconfig"; sourceTree = "<group>"; };
-		6BC208FD2901DA91C5FACD2C /* Pods_ReorganizableViewExampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReorganizableViewExampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AED94340CB75D70D24C487C /* Pods_ReorganizableViewExampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReorganizableViewExampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88B697314D5FF21CDD5A5E29 /* Pods-ReorganizableViewExampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReorganizableViewExampleApp.release.xcconfig"; path = "Target Support Files/Pods-ReorganizableViewExampleApp/Pods-ReorganizableViewExampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		A8C12D439E976E858272FAB7 /* Pods-ReorganizableViewExampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReorganizableViewExampleApp.debug.xcconfig"; path = "Target Support Files/Pods-ReorganizableViewExampleApp/Pods-ReorganizableViewExampleApp.debug.xcconfig"; sourceTree = "<group>"; };
 		E05B64C12A41CC7700A3724A /* ReorganizableViewExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReorganizableViewExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E05B64C42A41CC7700A3724A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E05B64C62A41CC7700A3724A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,7 +26,6 @@
 		E05B64CD2A41CC7800A3724A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E05B64D02A41CC7800A3724A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E05B64D22A41CC7800A3724A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E7D591DE27CFF12CF5D63F9C /* Pods-ReorganizableViewExampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReorganizableViewExampleApp.debug.xcconfig"; path = "Target Support Files/Pods-ReorganizableViewExampleApp/Pods-ReorganizableViewExampleApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,26 +33,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D83D501F2CBC3E92A17A308 /* Pods_ReorganizableViewExampleApp.framework in Frameworks */,
+				E7C25DE857AE31B8FB251800 /* Pods_ReorganizableViewExampleApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		082CA990C1425FF0A9BD6DE0 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6BC208FD2901DA91C5FACD2C /* Pods_ReorganizableViewExampleApp.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		C83CC99BFB22021D67FE0CC5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E7D591DE27CFF12CF5D63F9C /* Pods-ReorganizableViewExampleApp.debug.xcconfig */,
-				1FEF3645DA2A8906C610F76C /* Pods-ReorganizableViewExampleApp.release.xcconfig */,
+				A8C12D439E976E858272FAB7 /* Pods-ReorganizableViewExampleApp.debug.xcconfig */,
+				88B697314D5FF21CDD5A5E29 /* Pods-ReorganizableViewExampleApp.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -63,7 +55,7 @@
 				E05B64C32A41CC7700A3724A /* ReorganizableViewExampleApp */,
 				E05B64C22A41CC7700A3724A /* Products */,
 				C83CC99BFB22021D67FE0CC5 /* Pods */,
-				082CA990C1425FF0A9BD6DE0 /* Frameworks */,
+				F806C830A53336B91D073C2D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,14 +70,46 @@
 		E05B64C32A41CC7700A3724A /* ReorganizableViewExampleApp */ = {
 			isa = PBXGroup;
 			children = (
-				E05B64C42A41CC7700A3724A /* AppDelegate.swift */,
-				E05B64C62A41CC7700A3724A /* SceneDelegate.swift */,
-				E05B64C82A41CC7700A3724A /* ViewController.swift */,
-				E05B64CD2A41CC7800A3724A /* Assets.xcassets */,
-				E05B64CF2A41CC7800A3724A /* LaunchScreen.storyboard */,
-				E05B64D22A41CC7800A3724A /* Info.plist */,
+				E05B64D92A41CE6A00A3724A /* Ressources */,
+				E05B64DA2A41CE7900A3724A /* Screens */,
+				E05B64D82A41CE5000A3724A /* Supporting Files */,
 			);
 			path = ReorganizableViewExampleApp;
+			sourceTree = "<group>";
+		};
+		E05B64D82A41CE5000A3724A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E05B64C42A41CC7700A3724A /* AppDelegate.swift */,
+				E05B64C62A41CC7700A3724A /* SceneDelegate.swift */,
+				E05B64D22A41CC7800A3724A /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E05B64D92A41CE6A00A3724A /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				E05B64CF2A41CC7800A3724A /* LaunchScreen.storyboard */,
+				E05B64CD2A41CC7800A3724A /* Assets.xcassets */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		E05B64DA2A41CE7900A3724A /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				E05B64C82A41CC7700A3724A /* ViewController.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		F806C830A53336B91D073C2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AED94340CB75D70D24C487C /* Pods_ReorganizableViewExampleApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,7 +119,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E05B64D52A41CC7800A3724A /* Build configuration list for PBXNativeTarget "ReorganizableViewExampleApp" */;
 			buildPhases = (
-				BAF0236DB08DCD52232D61F2 /* [CP] Check Pods Manifest.lock */,
+				A0A3006D188EC13755C225BF /* [CP] Check Pods Manifest.lock */,
 				E05B64BD2A41CC7700A3724A /* Sources */,
 				E05B64BE2A41CC7700A3724A /* Frameworks */,
 				E05B64BF2A41CC7700A3724A /* Resources */,
@@ -155,7 +179,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		BAF0236DB08DCD52232D61F2 /* [CP] Check Pods Manifest.lock */ = {
+		A0A3006D188EC13755C225BF /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -320,7 +344,7 @@
 		};
 		E05B64D62A41CC7800A3724A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7D591DE27CFF12CF5D63F9C /* Pods-ReorganizableViewExampleApp.debug.xcconfig */;
+			baseConfigurationReference = A8C12D439E976E858272FAB7 /* Pods-ReorganizableViewExampleApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -328,7 +352,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 542FH45W93;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ReorganizableViewExampleApp/Info.plist;
+				INFOPLIST_FILE = "ReorganizableViewExampleApp/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -348,7 +372,7 @@
 		};
 		E05B64D72A41CC7800A3724A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FEF3645DA2A8906C610F76C /* Pods-ReorganizableViewExampleApp.release.xcconfig */;
+			baseConfigurationReference = 88B697314D5FF21CDD5A5E29 /* Pods-ReorganizableViewExampleApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -356,7 +380,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 542FH45W93;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ReorganizableViewExampleApp/Info.plist;
+				INFOPLIST_FILE = "ReorganizableViewExampleApp/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
