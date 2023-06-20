@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		5BB7C5C03290C27ED0AFFA0932AADDC5 /* ReorganizableView */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2C1CAAB12348D89B79DDFFF5EAB83C5B /* Build configuration list for PBXAggregateTarget "ReorganizableView" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = ReorganizableView;
+			productName = ReorganizableView;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		233C567AB81465029B456E0BFBE680BA /* Pods-ReorganizableViewExampleApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE00807D2C7DE1A99C76FCF6A8071B09 /* Pods-ReorganizableViewExampleApp-dummy.m */; };
+		6BC51AFD327EC52EAA92D28615C69AF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9A11F4927AE73B5D4C85429111C40991 /* Pods-ReorganizableViewExampleApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA611FFC647DB74E9B86321749C049C1 /* Pods-ReorganizableViewExampleApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FB1B5B77276C8FB67B06A9ACC41B4EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BB7C5C03290C27ED0AFFA0932AADDC5;
+			remoteInfo = ReorganizableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01DBFAF42D930B3B76E90E9F23F9398F /* Pods-ReorganizableViewExampleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReorganizableViewExampleApp.release.xcconfig"; sourceTree = "<group>"; };
+		0465CC61FF64D7CA0003B4AD75C4A369 /* Pods-ReorganizableViewExampleApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ReorganizableViewExampleApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		064B5DC8D12321573B45132D412722B6 /* Pods-ReorganizableViewExampleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ReorganizableViewExampleApp.debug.xcconfig"; sourceTree = "<group>"; };
+		06E87FECBABAC21DF398CF4C20D404DF /* ReorganizableView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ReorganizableView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2739444B78999BDDA5AB03B9563648FD /* Pods_ReorganizableViewExampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReorganizableViewExampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DFEBE0BEFA59271BD14044830C71CE7 /* ReorganizableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReorganizableView.release.xcconfig; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8D4B0B145607C8F5DB6421E42AAA17B2 /* Pods-ReorganizableViewExampleApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ReorganizableViewExampleApp.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5FE45BA1A751371ECF5E77C249D02B6 /* Pods-ReorganizableViewExampleApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReorganizableViewExampleApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		BA611FFC647DB74E9B86321749C049C1 /* Pods-ReorganizableViewExampleApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ReorganizableViewExampleApp-umbrella.h"; sourceTree = "<group>"; };
+		C28B779A705026CA76C497BB935D1FF7 /* Pods-ReorganizableViewExampleApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ReorganizableViewExampleApp-Info.plist"; sourceTree = "<group>"; };
+		DE00807D2C7DE1A99C76FCF6A8071B09 /* Pods-ReorganizableViewExampleApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ReorganizableViewExampleApp-dummy.m"; sourceTree = "<group>"; };
+		E4C56AFBE2D584E245B06A7D5DE0D94A /* ReorganizableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReorganizableView.debug.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A6FF54BFB0DF11DB040BFE56196F02B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BC51AFD327EC52EAA92D28615C69AF0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		235D6E2272E989E6B36917934E6C1A71 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				06E87FECBABAC21DF398CF4C20D404DF /* ReorganizableView.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		892B88B45DA3AE1D351B3BBF2DDA66E1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1C437D610C610CBDB2EE49F15CC00F1 /* ReorganizableView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BD34DD41F1A0CF9FDBFCF9D17574A4B0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E75908136A8D48A398D08C2A3186983B /* Pods-ReorganizableViewExampleApp */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				892B88B45DA3AE1D351B3BBF2DDA66E1 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				E726A46959FCBFD605FE42D8744130F2 /* Products */,
+				BD34DD41F1A0CF9FDBFCF9D17574A4B0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1C437D610C610CBDB2EE49F15CC00F1 /* ReorganizableView */ = {
+			isa = PBXGroup;
+			children = (
+				235D6E2272E989E6B36917934E6C1A71 /* Pod */,
+				EDCEA884DA4A7F302F346A63CBA1AF9F /* Support Files */,
+			);
+			name = ReorganizableView;
+			path = ../../Sources;
+			sourceTree = "<group>";
+		};
+		E726A46959FCBFD605FE42D8744130F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2739444B78999BDDA5AB03B9563648FD /* Pods_ReorganizableViewExampleApp.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E75908136A8D48A398D08C2A3186983B /* Pods-ReorganizableViewExampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				8D4B0B145607C8F5DB6421E42AAA17B2 /* Pods-ReorganizableViewExampleApp.modulemap */,
+				0465CC61FF64D7CA0003B4AD75C4A369 /* Pods-ReorganizableViewExampleApp-acknowledgements.markdown */,
+				A5FE45BA1A751371ECF5E77C249D02B6 /* Pods-ReorganizableViewExampleApp-acknowledgements.plist */,
+				DE00807D2C7DE1A99C76FCF6A8071B09 /* Pods-ReorganizableViewExampleApp-dummy.m */,
+				C28B779A705026CA76C497BB935D1FF7 /* Pods-ReorganizableViewExampleApp-Info.plist */,
+				BA611FFC647DB74E9B86321749C049C1 /* Pods-ReorganizableViewExampleApp-umbrella.h */,
+				064B5DC8D12321573B45132D412722B6 /* Pods-ReorganizableViewExampleApp.debug.xcconfig */,
+				01DBFAF42D930B3B76E90E9F23F9398F /* Pods-ReorganizableViewExampleApp.release.xcconfig */,
+			);
+			name = "Pods-ReorganizableViewExampleApp";
+			path = "Target Support Files/Pods-ReorganizableViewExampleApp";
+			sourceTree = "<group>";
+		};
+		EDCEA884DA4A7F302F346A63CBA1AF9F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4C56AFBE2D584E245B06A7D5DE0D94A /* ReorganizableView.debug.xcconfig */,
+				6DFEBE0BEFA59271BD14044830C71CE7 /* ReorganizableView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Example App/Pods/Target Support Files/ReorganizableView";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		536893A99EBACBDCEF50123EBB6E2293 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A11F4927AE73B5D4C85429111C40991 /* Pods-ReorganizableViewExampleApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EF066817CD221832BE6B2117D4303E4A /* Pods-ReorganizableViewExampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B58C621E058C271F783CE71A215EEC2 /* Build configuration list for PBXNativeTarget "Pods-ReorganizableViewExampleApp" */;
+			buildPhases = (
+				536893A99EBACBDCEF50123EBB6E2293 /* Headers */,
+				5F14DDFE1EB925462C7B120C8E70EBA2 /* Sources */,
+				8A6FF54BFB0DF11DB040BFE56196F02B /* Frameworks */,
+				D4B4BB30E405D097A58E310E1F774FB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55EDB98BD737AB6EC410E89F1481DC67 /* PBXTargetDependency */,
+			);
+			name = "Pods-ReorganizableViewExampleApp";
+			productName = Pods_ReorganizableViewExampleApp;
+			productReference = 2739444B78999BDDA5AB03B9563648FD /* Pods_ReorganizableViewExampleApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E726A46959FCBFD605FE42D8744130F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF066817CD221832BE6B2117D4303E4A /* Pods-ReorganizableViewExampleApp */,
+				5BB7C5C03290C27ED0AFFA0932AADDC5 /* ReorganizableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4B4BB30E405D097A58E310E1F774FB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F14DDFE1EB925462C7B120C8E70EBA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				233C567AB81465029B456E0BFBE680BA /* Pods-ReorganizableViewExampleApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55EDB98BD737AB6EC410E89F1481DC67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReorganizableView;
+			target = 5BB7C5C03290C27ED0AFFA0932AADDC5 /* ReorganizableView */;
+			targetProxy = 8FB1B5B77276C8FB67B06A9ACC41B4EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4D262122956FE10B6F49EF23A0361BCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01DBFAF42D930B3B76E90E9F23F9398F /* Pods-ReorganizableViewExampleApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ReorganizableViewExampleApp/Pods-ReorganizableViewExampleApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReorganizableViewExampleApp/Pods-ReorganizableViewExampleApp.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6DBB04B9CC0B6D2BF48959D44AAAA09B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4C56AFBE2D584E245B06A7D5DE0D94A /* ReorganizableView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7AB4FD1C5489A91EA5518D1D6963C575 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DFEBE0BEFA59271BD14044830C71CE7 /* ReorganizableView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		903A0004D3E6651EFD5D2E16214D101B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9F164D05513390A75AD764A78C26482C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 064B5DC8D12321573B45132D412722B6 /* Pods-ReorganizableViewExampleApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ReorganizableViewExampleApp/Pods-ReorganizableViewExampleApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ReorganizableViewExampleApp/Pods-ReorganizableViewExampleApp.modulemap";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++14";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C1CAAB12348D89B79DDFFF5EAB83C5B /* Build configuration list for PBXAggregateTarget "ReorganizableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DBB04B9CC0B6D2BF48959D44AAAA09B /* Debug */,
+				7AB4FD1C5489A91EA5518D1D6963C575 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4EFE046ACF8F37157F6E322C7FCFC28 /* Debug */,
+				903A0004D3E6651EFD5D2E16214D101B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B58C621E058C271F783CE71A215EEC2 /* Build configuration list for PBXNativeTarget "Pods-ReorganizableViewExampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F164D05513390A75AD764A78C26482C /* Debug */,
+				4D262122956FE10B6F49EF23A0361BCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

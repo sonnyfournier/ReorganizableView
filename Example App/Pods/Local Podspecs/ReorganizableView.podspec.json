@@ -1,0 +1,22 @@
+{
+  "name": "ReorganizableView",
+  "version": "1.0.0",
+  "summary": "A view that allows to organize multiple views into multiple stackviews",
+  "description": "A view that allows to organize multiple views into multiple stackviews like Jira or Trello tickets",
+  "homepage": "https://github.com/sonnyfournier/ReorganizableView",
+  "license": "MIT",
+  "authors": {
+    "Sonny Fournier": "sonny.fournier@protonmail.com"
+  },
+  "source": {
+    "git": "https://github.com/sonnyfournier/ReorganizableView.git",
+    "tag": "1.0.0"
+  },
+  "source_files": "ReorganizableView/**/*.swift",
+  "platforms": {
+    "osx": null,
+    "ios": null,
+    "tvos": null,
+    "watchos": null
+  }
+}

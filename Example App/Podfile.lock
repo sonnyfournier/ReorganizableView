@@ -1,0 +1,16 @@
+PODS:
+  - ReorganizableView (1.0.0)
+
+DEPENDENCIES:
+  - ReorganizableView (from `../Sources`)
+
+EXTERNAL SOURCES:
+  ReorganizableView:
+    :path: "../Sources"
+
+SPEC CHECKSUMS:
+  ReorganizableView: 06dd2e587a53748de2818d08e92758f96d1f0daa
+
+PODFILE CHECKSUM: 942fc16f4e9b1fc0fc05303a27643380282cd1a8
+
+COCOAPODS: 1.12.1
