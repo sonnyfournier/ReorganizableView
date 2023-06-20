@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E02FB7F42A41D0200023188C /* ReorganizableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02FB7F32A41D0200023188C /* ReorganizableView.swift */; };
 		E05B64B12A41CA9D00A3724A /* ReorganizableView.docc in Sources */ = {isa = PBXBuildFile; fileRef = E05B64B02A41CA9D00A3724A /* ReorganizableView.docc */; };
 		E05B64B22A41CA9D00A3724A /* ReorganizableView.h in Headers */ = {isa = PBXBuildFile; fileRef = E05B64AF2A41CA9D00A3724A /* ReorganizableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E02FB7F32A41D0200023188C /* ReorganizableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReorganizableView.swift; sourceTree = "<group>"; };
 		E05B64AC2A41CA9D00A3724A /* ReorganizableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReorganizableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E05B64AF2A41CA9D00A3724A /* ReorganizableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReorganizableView.h; sourceTree = "<group>"; };
 		E05B64B02A41CA9D00A3724A /* ReorganizableView.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ReorganizableView.docc; sourceTree = "<group>"; };
@@ -49,6 +51,7 @@
 			children = (
 				E05B64AF2A41CA9D00A3724A /* ReorganizableView.h */,
 				E05B64B02A41CA9D00A3724A /* ReorganizableView.docc */,
+				E02FB7F32A41D0200023188C /* ReorganizableView.swift */,
 			);
 			path = ReorganizableView;
 			sourceTree = "<group>";
@@ -132,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E02FB7F42A41D0200023188C /* ReorganizableView.swift in Sources */,
 				E05B64B12A41CA9D00A3724A /* ReorganizableView.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
