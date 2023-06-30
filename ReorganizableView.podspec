@@ -13,6 +13,6 @@ Pod::Spec.new do |spec|
   spec.source_files  = "Sources/ReorganizableView/**/*.swift"
 
   spec.swift_version = "4.0"
-  spec.platform = :ios, '11'
+  spec.platform = :ios, '13'
 
 end

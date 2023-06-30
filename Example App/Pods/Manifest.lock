@@ -2,15 +2,15 @@ PODS:
   - ReorganizableView (1.0.0)
 
 DEPENDENCIES:
-  - ReorganizableView (from `../Sources`)
+  - ReorganizableView (from `../`)
 
 EXTERNAL SOURCES:
   ReorganizableView:
-    :path: "../Sources"
+    :path: "../"
 
 SPEC CHECKSUMS:
-  ReorganizableView: 06dd2e587a53748de2818d08e92758f96d1f0daa
+  ReorganizableView: 05e57234ecbf3988b8296dc59003e8fe9830eb49
 
-PODFILE CHECKSUM: 942fc16f4e9b1fc0fc05303a27643380282cd1a8
+PODFILE CHECKSUM: 4bb2158592c1c9cf6fd128e3f9f0e72e65df40f4
 
 COCOAPODS: 1.12.1
